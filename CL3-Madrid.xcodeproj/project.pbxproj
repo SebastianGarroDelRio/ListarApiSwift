@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE76E03D685B8AAA970203F /* Pods_CL3_Madrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4249E1825B0601501196413 /* Pods_CL3_Madrid.framework */; };
+		B7A4EA3F2B0C184400F1745E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4EA3E2B0C184400F1745E /* Book.swift */; };
+		B7A4EA412B0C1AF800F1745E /* DetalleLibroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4EA402B0C1AF800F1745E /* DetalleLibroViewController.swift */; };
+		B7A4EA432B0C1BD800F1745E /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4EA422B0C1BD800F1745E /* ItemCollectionViewCell.swift */; };
+		B7A4EA452B0C28C800F1745E /* xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4EA442B0C28C800F1745E /* xd.swift */; };
+		B7BC56F22B0D69F500D5E6D6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC56F12B0D69F500D5E6D6 /* Api.swift */; };
+		B7BC56F42B0D6AD900D5E6D6 /* Pdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC56F32B0D6AD900D5E6D6 /* Pdf.swift */; };
+		B7BC56F62B0D6B8600D5E6D6 /* ConsultarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC56F52B0D6B8600D5E6D6 /* ConsultarViewController.swift */; };
+		B7BC56F82B0D72E400D5E6D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BC56F72B0D72E400D5E6D6 /* GoogleService-Info.plist */; };
+		B7E12C512B0921A6008793B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E12C502B0921A6008793B1 /* AppDelegate.swift */; };
+		B7E12C532B0921A6008793B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E12C522B0921A6008793B1 /* SceneDelegate.swift */; };
+		B7E12C552B0921A6008793B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E12C542B0921A6008793B1 /* ViewController.swift */; };
+		B7E12C582B0921A6008793B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E12C562B0921A6008793B1 /* Main.storyboard */; };
+		B7E12C5B2B0921A6008793B1 /* CL3_Madrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E12C592B0921A6008793B1 /* CL3_Madrid.xcdatamodeld */; };
+		B7E12C5D2B0921A7008793B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E12C5C2B0921A7008793B1 /* Assets.xcassets */; };
+		B7E12C602B0921A7008793B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E12C5E2B0921A7008793B1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89D637B21EBAB7F228E4998A /* Pods-CL3-Madrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL3-Madrid.debug.xcconfig"; path = "Target Support Files/Pods-CL3-Madrid/Pods-CL3-Madrid.debug.xcconfig"; sourceTree = "<group>"; };
+		8FF61DBCCFF70427DF787240 /* Pods-CL3-Madrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL3-Madrid.release.xcconfig"; path = "Target Support Files/Pods-CL3-Madrid/Pods-CL3-Madrid.release.xcconfig"; sourceTree = "<group>"; };
+		B7A4EA3E2B0C184400F1745E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		B7A4EA402B0C1AF800F1745E /* DetalleLibroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleLibroViewController.swift; sourceTree = "<group>"; };
+		B7A4EA422B0C1BD800F1745E /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7A4EA442B0C28C800F1745E /* xd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xd.swift; sourceTree = "<group>"; };
+		B7BC56F12B0D69F500D5E6D6 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		B7BC56F32B0D6AD900D5E6D6 /* Pdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pdf.swift; sourceTree = "<group>"; };
+		B7BC56F52B0D6B8600D5E6D6 /* ConsultarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultarViewController.swift; sourceTree = "<group>"; };
+		B7BC56F72B0D72E400D5E6D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7E12C4D2B0921A6008793B1 /* CL3-Madrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CL3-Madrid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E12C502B0921A6008793B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E12C522B0921A6008793B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7E12C542B0921A6008793B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7E12C572B0921A6008793B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E12C5A2B0921A6008793B1 /* CL3_Madrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CL3_Madrid.xcdatamodel; sourceTree = "<group>"; };
+		B7E12C5C2B0921A7008793B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E12C5F2B0921A7008793B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E12C612B0921A7008793B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4249E1825B0601501196413 /* Pods_CL3_Madrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CL3_Madrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E12C4A2B0921A6008793B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE76E03D685B8AAA970203F /* Pods_CL3_Madrid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AAE9C406D37B7A34A7F97B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4249E1825B0601501196413 /* Pods_CL3_Madrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A4EA3D2B0C17FC00F1745E /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B7A4EA3E2B0C184400F1745E /* Book.swift */,
+				B7A4EA402B0C1AF800F1745E /* DetalleLibroViewController.swift */,
+				B7A4EA422B0C1BD800F1745E /* ItemCollectionViewCell.swift */,
+				B7A4EA442B0C28C800F1745E /* xd.swift */,
+				B7BC56F12B0D69F500D5E6D6 /* Api.swift */,
+				B7BC56F32B0D6AD900D5E6D6 /* Pdf.swift */,
+				B7BC56F52B0D6B8600D5E6D6 /* ConsultarViewController.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		B7E12C442B0921A6008793B1 = {
+			isa = PBXGroup;
+			children = (
+				B7E12C4F2B0921A6008793B1 /* CL3-Madrid */,
+				B7E12C4E2B0921A6008793B1 /* Products */,
+				F7DA3AC74786988F12A743AA /* Pods */,
+				50AAE9C406D37B7A34A7F97B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E12C4E2B0921A6008793B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E12C4D2B0921A6008793B1 /* CL3-Madrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E12C4F2B0921A6008793B1 /* CL3-Madrid */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC56F72B0D72E400D5E6D6 /* GoogleService-Info.plist */,
+				B7A4EA3D2B0C17FC00F1745E /* api */,
+				B7E12C502B0921A6008793B1 /* AppDelegate.swift */,
+				B7E12C522B0921A6008793B1 /* SceneDelegate.swift */,
+				B7E12C542B0921A6008793B1 /* ViewController.swift */,
+				B7E12C562B0921A6008793B1 /* Main.storyboard */,
+				B7E12C5C2B0921A7008793B1 /* Assets.xcassets */,
+				B7E12C5E2B0921A7008793B1 /* LaunchScreen.storyboard */,
+				B7E12C612B0921A7008793B1 /* Info.plist */,
+				B7E12C592B0921A6008793B1 /* CL3_Madrid.xcdatamodeld */,
+			);
+			path = "CL3-Madrid";
+			sourceTree = "<group>";
+		};
+		F7DA3AC74786988F12A743AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D637B21EBAB7F228E4998A /* Pods-CL3-Madrid.debug.xcconfig */,
+				8FF61DBCCFF70427DF787240 /* Pods-CL3-Madrid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E12C4C2B0921A6008793B1 /* CL3-Madrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E12C642B0921A7008793B1 /* Build configuration list for PBXNativeTarget "CL3-Madrid" */;
+			buildPhases = (
+				ADC468786FAE65A6D177B76B /* [CP] Check Pods Manifest.lock */,
+				B7E12C492B0921A6008793B1 /* Sources */,
+				B7E12C4A2B0921A6008793B1 /* Frameworks */,
+				B7E12C4B2B0921A6008793B1 /* Resources */,
+				1C5534BB6A1CE979D96A0CF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CL3-Madrid";
+			productName = "CL3-Madrid";
+			productReference = B7E12C4D2B0921A6008793B1 /* CL3-Madrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E12C452B0921A6008793B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B7E12C4C2B0921A6008793B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B7E12C482B0921A6008793B1 /* Build configuration list for PBXProject "CL3-Madrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E12C442B0921A6008793B1;
+			productRefGroup = B7E12C4E2B0921A6008793B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E12C4C2B0921A6008793B1 /* CL3-Madrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E12C4B2B0921A6008793B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E12C602B0921A7008793B1 /* LaunchScreen.storyboard in Resources */,
+				B7BC56F82B0D72E400D5E6D6 /* GoogleService-Info.plist in Resources */,
+				B7E12C5D2B0921A7008793B1 /* Assets.xcassets in Resources */,
+				B7E12C582B0921A6008793B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5534BB6A1CE979D96A0CF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL3-Madrid/Pods-CL3-Madrid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL3-Madrid/Pods-CL3-Madrid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CL3-Madrid/Pods-CL3-Madrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC468786FAE65A6D177B76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CL3-Madrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E12C492B0921A6008793B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BC56F42B0D6AD900D5E6D6 /* Pdf.swift in Sources */,
+				B7BC56F22B0D69F500D5E6D6 /* Api.swift in Sources */,
+				B7E12C552B0921A6008793B1 /* ViewController.swift in Sources */,
+				B7E12C5B2B0921A6008793B1 /* CL3_Madrid.xcdatamodeld in Sources */,
+				B7E12C512B0921A6008793B1 /* AppDelegate.swift in Sources */,
+				B7A4EA3F2B0C184400F1745E /* Book.swift in Sources */,
+				B7BC56F62B0D6B8600D5E6D6 /* ConsultarViewController.swift in Sources */,
+				B7A4EA412B0C1AF800F1745E /* DetalleLibroViewController.swift in Sources */,
+				B7E12C532B0921A6008793B1 /* SceneDelegate.swift in Sources */,
+				B7A4EA432B0C1BD800F1745E /* ItemCollectionViewCell.swift in Sources */,
+				B7A4EA452B0C28C800F1745E /* xd.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E12C562B0921A6008793B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E12C572B0921A6008793B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E12C5E2B0921A7008793B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E12C5F2B0921A7008793B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E12C622B0921A7008793B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E12C632B0921A7008793B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E12C652B0921A7008793B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D637B21EBAB7F228E4998A /* Pods-CL3-Madrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CL3-Madrid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cibertec.edu.pe.CL3-Madrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E12C662B0921A7008793B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF61DBCCFF70427DF787240 /* Pods-CL3-Madrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CL3-Madrid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cibertec.edu.pe.CL3-Madrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E12C482B0921A6008793B1 /* Build configuration list for PBXProject "CL3-Madrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E12C622B0921A7008793B1 /* Debug */,
+				B7E12C632B0921A7008793B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E12C642B0921A7008793B1 /* Build configuration list for PBXNativeTarget "CL3-Madrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E12C652B0921A7008793B1 /* Debug */,
+				B7E12C662B0921A7008793B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7E12C592B0921A6008793B1 /* CL3_Madrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7E12C5A2B0921A6008793B1 /* CL3_Madrid.xcdatamodel */,
+			);
+			currentVersion = B7E12C5A2B0921A6008793B1 /* CL3_Madrid.xcdatamodel */;
+			path = CL3_Madrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7E12C452B0921A6008793B1 /* Project object */;
+}

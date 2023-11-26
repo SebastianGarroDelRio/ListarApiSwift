@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBKgYlShdUHqGT7AoF6UwRwD1EWLNPdDP0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>984273135563</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cibertec.edu.pe.CL3-Madrid</string>
+	<key>PROJECT_ID</key>
+	<string>cl3-madrid</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cl3-madrid.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:984273135563:ios:f5cbead9d3c63cfb50f84e</string>
+</dict>
+</plist>
